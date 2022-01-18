@@ -1,0 +1,22 @@
+.token-section {
+  background: linear-gradient(to right, $mist-bg ,#001F20, $mist-bg );;
+  box-shadow: 0px 0px 50px white;
+  height: 218px;
+  h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: $mist-white;
+   
+  }
+
+  .tokens{
+
+    width: 658px;
+
+    img{
+        box-shadow: 0px 0px 15px white;
+        border-radius: 50%;
+        background-color: transparent;
+    }
+  }
+}

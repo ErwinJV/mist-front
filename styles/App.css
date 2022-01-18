@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Lato:wght@900&display=swap");
+body {
+  font-family: "Inter", sans-serif; }
+
+.bg-mist {
+  background-color: #00181e; }
+
+.mx-project {
+  margin-left: 131px;
+  margin-right: 131px; }
+
+.main-section {
+  height: 900px;
+  background: linear-gradient(to bottom, #00060c 24%, #001118 30%); }
+  .main-section .coin-factory img {
+    width: 517px;
+    height: 508;
+    margin-top: 7rem; }
+  .main-section .coin-board {
+    width: 966px;
+    height: 74px;
+    left: calc(50% - 483px);
+    top: 25%px; }
+    .main-section .coin-board ul {
+      padding: 10px 18px 10px 35px; }
+    .main-section .coin-board span {
+      font-size: 13px; }
+    .main-section .coin-board li {
+      list-style: none; }
+    .main-section .coin-board .desc-price {
+      font-size: 13px;
+      font-family: "Roboto", sans-serif;
+      color: #62d2a2; }
+    .main-section .coin-board .price-coin {
+      color: #00181e;
+      font-family: "Inter", sans-serif;
+      font-size: 23px;
+      font-weight: 900; }
+    .main-section .coin-board .btn-cool {
+      background-color: #62d2a2;
+      width: 155px;
+      height: 38px;
+      margin: 8px 0 8px 119px; }
+  .main-section .main-text h1 {
+    font-size: 44.5px; }
+  .main-section .main-text p {
+    font-size: 26px;
+    width: 60%; }
+
+.mist-nav {
+  background-color: transparent;
+  height: 170px;
+  width: 100%; }
+  .mist-nav .center-links {
+    margin-top: 4rem; }
+  .mist-nav .lang li {
+    width: 72px;
+    border-radius: 5px; }
+  .mist-nav .lang li:hover {
+    background-color: white;
+    cursor: pointer; }
+
+.mist-carousel.projects {
+  background-color: #001118; }
+
+.mist-carousel.upcoming {
+  background-color: #001811; }
+
+.mist-carousel {
+  background-color: #001118;
+  height: 900px; }
+  .mist-carousel .title-section {
+    border-bottom: 2px solid #10d59f;
+    padding-top: 5rem; }
+    .mist-carousel .title-section .h2 {
+      font-size: 48px;
+      font-family: 'Inter', sans-serif; }
+  .mist-carousel .title-carousel {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px; }
+  .mist-carousel .text-carousel {
+    font-family: 'Inter', sans-serif;
+    font-size: 26px; }
+  .mist-carousel .left-icon-mist {
+    left: 0;
+    top: -70px;
+    opacity: .1; }
+  .mist-carousel .middle-icon-mist-small-r {
+    right: 0;
+    bottom: -2px;
+    opacity: .1; }
+  .mist-carousel .left-icon-mist-down {
+    left: 0;
+    bottom: 80px;
+    opacity: .1; }
+
+.carousel-control-next, .carousel-control-prev {
+  top: unset !important;
+  bottom: unset !important;
+  z-index: unset !important;
+  position: unset !important;
+  color: #62d2a2 !important; }
+
+.border-end-gray {
+  border-right: 2px solid  #e5e5ea; }
+
+.btn-mist {
+  height: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid #10d59f;
+  color: #10d59f; }
+  .btn-mist:hover {
+    background-color: #10d59f;
+    color: #001118; }
+
+.token-section {
+  background: linear-gradient(to right, #001118, #001F20, #001118);
+  box-shadow: 0px 0px 50px white;
+  height: 218px; }
+  .token-section h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #e5e5ea; }
+  .token-section .tokens {
+    width: 658px; }
+    .token-section .tokens img {
+      box-shadow: 0px 0px 15px white;
+      border-radius: 50%;
+      background-color: transparent; }
+
+.advantages-section {
+  background-color: #001118;
+  height: 950px; }
+  .advantages-section .as-text {
+    height: 370px; }
+    .advantages-section .as-text h2 {
+      font-family: "Inter", sans-serif;
+      color: #e5e5ea;
+      font-size: 30px; }
+    .advantages-section .as-text p {
+      font-family: "Inter", sans-serif;
+      color: #e5e5ea;
+      font-size: 26px; }
+  .advantages-section .middle-icon-mist-small-l {
+    left: 0;
+    top: 25%;
+    opacity: 0.1; }
+  .advantages-section .card-box {
+    width: 320px;
+    height: 380px;
+    background: linear-gradient(to bottom, #06d1f5 60%, #1eff09);
+    padding-bottom: 3rem; }
+    .advantages-section .card-box .card-box-body {
+      width: 99%;
+      height: 99%;
+      background-color: #001118;
+      top: 2px;
+      position: absolute; }
+      .advantages-section .card-box .card-box-body .icon-container {
+        width: 126px;
+        height: 125px;
+        background-color: #e5e5ea;
+        left: calc(50% - 63px);
+        top: -62.5px; }
+        .advantages-section .card-box .card-box-body .icon-container img {
+          width: 77px;
+          height: 72px; }
+      .advantages-section .card-box .card-box-body .card-box-text h3 {
+        font-family: "Inter", sans-serif;
+        color: #e5e5ea;
+        font-size: 27px;
+        text-shadow: 0px 0px 20px;
+        margin-top: 5rem; }
+      .advantages-section .card-box .card-box-body .card-box-text p {
+        width: 313px;
+        font-family: "Inter", sans-serif;
+        color: #e5e5ea;
+        font-size: 21px;
+        text-shadow: 0px 0px 20px;
+        margin-top: 1rem; }
+  @media (min-width: 1024px) {
+    .advantages-section .card-box {
+      width: 340px;
+      height: 406px;
+      margin-right: 4px; } }
+
+.we-do-section {
+  height: 246px;
+  background-color: #001811;
+  padding-bottom: 4rem; }
+  .we-do-section p {
+    font-family: 'Inter',sans-serif;
+    font-size: 48px;
+    color: white; }
+
+.our-partners-section {
+  background: linear-gradient(to right, #001811, #001F20, #001811);
+  box-shadow: 0px 0px 50px white;
+  height: 218px; }
+  .our-partners-section h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #e5e5ea; }
+  .our-partners-section .partners {
+    width: 658px; }
+    .our-partners-section .partners img {
+      box-shadow: 0px 0px 15px white;
+      border-radius: 50%;
+      background-color: transparent; }
+
+.faq-section {
+  height: 900px;
+  background-color: #001811; }
+  .faq-section .crecent-mist-icon {
+    right: 0;
+    top: 80px;
+    opacity: .1; }
+  .faq-section .faq-text {
+    padding-top: 7rem;
+    font-family: "Inter", sans-serif; }
+    .faq-section .faq-text h4 {
+      font-size: 30px; }
+    .faq-section .faq-text p {
+      font-size: 26px; }
+  .faq-section .faq-boxes {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    height: 463px !important; }
+  .faq-section .faq-group {
+    height: 463px; }
+    .faq-section .faq-group li {
+      background-color: #001211;
+      color: white;
+      border-bottom: 2px white solid;
+      height: calc( 463px / 6);
+      font-size: 19px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .faq-section .faq-group li i {
+        color: #62d2a2; }
+    .faq-section .faq-group li:last-child {
+      border-bottom: none; }
+  .faq-section .answer-box {
+    background-color: #001211;
+    width: 479px;
+    height: 463px;
+    border-bottom: 12px #62d2a2 solid; }
+    .faq-section .answer-box .answer-text p {
+      font-size: 17px;
+      line-height: 30px; }
+
+footer {
+  height: 130px;
+  background-color: #001811; }
+  footer small {
+    font-size: 12px; }
+  footer .contact-links a {
+    color: #10d59f;
+    font-size: 13px;
+    text-decoration: none; }
+  footer .social-icon {
+    width: 30px;
+    height: 30px;
+    background: #07D6A0; }
+  footer .options-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px; }

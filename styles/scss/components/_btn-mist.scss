@@ -1,0 +1,16 @@
+.btn-mist{
+
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: 
+    transparent;
+    border: 1px solid $cool-dark-green;
+    color: $cool-dark-green;
+
+    &:hover{
+
+        background-color: $cool-dark-green;
+        color: $mist-bg;
+    }
+}
