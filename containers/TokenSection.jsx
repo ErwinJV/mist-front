@@ -3,6 +3,7 @@ import React from "react";
 const TokenSection = ({lang}) => {
   return (
     <section className="token-section  container-fluid d-flex flex-column justify-content-center">
+  <div className="max-width">
   <div className="container">
     <h4 className="text-center mb-5 fw-normal">{lang.title}</h4>
     <div className="d-flex w-100 mt-2 justify-content-center">
@@ -14,6 +15,7 @@ const TokenSection = ({lang}) => {
         <img src="/icons/token-icon.webp" className="me-2" alt="token-icon" />
       </div>
     </div>
+  </div>
   </div>
 </section>
 

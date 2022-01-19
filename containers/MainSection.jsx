@@ -13,7 +13,7 @@ const MainSection = ({lang}) => {
   };
   return (
     <section className="main-section d-flex flex-column container-fluid p-0 position-relative">
-      <div className="container">
+      <div className="container max-width">
         {/*NAV*/}
         <div className="mist-nav">
           <nav className="d-flex justify-content-between w-100 h-100 text-white fixed">

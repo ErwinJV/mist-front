@@ -1,51 +1,50 @@
 import React from "react";
 
-const FaqSection = ({lang}) => {
+const FaqSection = ({ lang }) => {
   return (
     <div className="faq-section position-relative">
-      <img
-        src="/icons/crecent-mist-icon.webp"
-        className="crecent-mist-icon position-absolute"
-        alt="icon-crecent-mist"
-      />
-      <div className="mx-project">
-        <div className="faq-text text-white text-center">
-          <h4 className="fw-bolder">{lang.title}</h4>
-          <p className="fw-normal">
-           {lang.text}
-          </p>
-        </div>
-        <div className="faq-boxes">
-          <ul className="list-group faq-group">
-            <li className="list-group-item">
-              <span>{lang.questions.A}</span>
-              <i className="bi bi-chevron-right" />
-            </li>
-            <li className="list-group-item">
-              <span>{lang.questions.B}</span>
-              <i className="bi bi-chevron-right" />
-            </li>
-            <li className="list-group-item">
-              <span>{lang.questions.C}</span>
-              <i className="bi bi-chevron-right" />
-            </li>
-            <li className="list-group-item">
-              <span>{lang.questions.D}?</span>
-              <i className="bi bi-chevron-right" />
-            </li>
-            <li className="list-group-item">
-            {lang.questions.E}
-              <span />
-              <i className="bi bi-chevron-right" />
-            </li>
-            <li className="list-group-item">
-              <span>{lang.questions.F}</span>
-              <i className="bi bi-chevron-right" />
-            </li>
-          </ul>
-          <div className="answer-box">
-            <div className="answer-text p-4 text-white">
-            {/*  <p>
+      <div className="max-width">
+        <img
+          src="/icons/crecent-mist-icon.webp"
+          className="crecent-mist-icon position-absolute"
+          alt="icon-crecent-mist"
+        />
+        <div className="mx-project">
+          <div className="faq-text text-white text-center">
+            <h4 className="fw-bolder">{lang.title}</h4>
+            <p className="fw-normal">{lang.text}</p>
+          </div>
+          <div className="faq-boxes">
+            <ul className="list-group faq-group">
+              <li className="list-group-item">
+                <span>{lang.questions.A}</span>
+                <i className="bi bi-chevron-right" />
+              </li>
+              <li className="list-group-item">
+                <span>{lang.questions.B}</span>
+                <i className="bi bi-chevron-right" />
+              </li>
+              <li className="list-group-item">
+                <span>{lang.questions.C}</span>
+                <i className="bi bi-chevron-right" />
+              </li>
+              <li className="list-group-item">
+                <span>{lang.questions.D}?</span>
+                <i className="bi bi-chevron-right" />
+              </li>
+              <li className="list-group-item">
+                {lang.questions.E}
+                <span />
+                <i className="bi bi-chevron-right" />
+              </li>
+              <li className="list-group-item">
+                <span>{lang.questions.F}</span>
+                <i className="bi bi-chevron-right" />
+              </li>
+            </ul>
+            <div className="answer-box">
+              <div className="answer-text p-4 text-white">
+                {/*  <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
@@ -60,7 +59,8 @@ const FaqSection = ({lang}) => {
                 esse molestie consequat, vel illum dolore eu feugiat nulla
                 facilisis at vero eros et accumsan et iusto erat.
             </p> */}
-            {lang.answers.A}
+                {lang.answers.A}
+              </div>
             </div>
           </div>
         </div>

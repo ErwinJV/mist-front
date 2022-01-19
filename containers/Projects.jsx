@@ -3,8 +3,9 @@ import React from 'react';
 const Projects = ({lang}) => {
     return (
         
-   <section className="mist-carousel projects text-white position-relative container-fluid">
-  <img src="/icons/middle-mist-logo.webp" className="left-icon-mist position-absolute" alt="middle-icon-mist" />
+   <section className="mist-carousel projects text-white container-fluid">
+   <div className="max-width position-relative">
+   <img src="/icons/middle-mist-logo.webp" className="left-icon-mist position-absolute" alt="middle-icon-mist" />
   <img src="/icons/middle-mist-logo-small-r.webp" className="middle-icon-mist-small-r position-absolute" alt="middle-icon-mist-r" />
   <div className="mx-project h-100">
     <div className="w-100 title-section d-flex justify-content-between">
@@ -71,6 +72,9 @@ const Projects = ({lang}) => {
       </div>
     </div>
   </div>
+   </div>
+  
+  
 </section>
 
     );
