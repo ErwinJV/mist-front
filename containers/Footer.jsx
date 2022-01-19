@@ -1,13 +1,13 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = ({lang}) => {
   return (
     <footer>
       <div className="mx-project">
         <div className="row row-cols-1 row-cols-md-3">
           <div className="col mt-5">
             <small className="text-white">
-              Copyright 2021 - All Right Reserved
+              {lang.copyright}
             </small>
           </div>
           <div className="col mt-5">
@@ -31,16 +31,16 @@ const Footer = () => {
                 </a>
               </div>
               <div className="contact-links text-center mt-3">
-                <a href="#">Source code</a> <span>|</span> <a href="#">Docs</a>
+                <a href="#">{lang.center_nav[0]}</a> <span>|</span> <a href="#">{lang.center_nav[1]}</a>
               </div>
             </div>
           </div>
           <div className="col mt-5">
             <div className="options-links d-flex justify-content-between">
-              <a href="#">Analytics</a>
-              <a href="#">Misty Lake</a>
-              <a href="#">Enter App</a>
-              <a href="#">Language</a>
+              <a href="#">{lang.right_nav[0]}</a>
+              <a href="#">{lang.right_nav[1]}</a>
+              <a href="#">{lang.right_nav[2]}</a>
+              <a href="#">{lang.right_nav[3]}</a>
             </div>
           </div>
         </div>

@@ -7,10 +7,14 @@
 
    margin-top: 4rem;
 }
-  .lang li{
+  
+.lang select{
 
-    width: 72px;
-    border-radius: 5px;
+   height: 30% !important;
+  }
+
+  .lang select option{
+    color: black;
   }
 
  .lang li:hover{

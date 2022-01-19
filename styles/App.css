@@ -10,7 +10,7 @@ body {
   margin-right: 131px; }
 
 .main-section {
-  height: 900px;
+  height: 940px;
   background: linear-gradient(to bottom, #00060c 24%, #001118 30%); }
   .main-section .coin-factory img {
     width: 517px;
@@ -53,9 +53,10 @@ body {
   width: 100%; }
   .mist-nav .center-links {
     margin-top: 4rem; }
-  .mist-nav .lang li {
-    width: 72px;
-    border-radius: 5px; }
+  .mist-nav .lang select {
+    height: 30% !important; }
+  .mist-nav .lang select option {
+    color: black; }
   .mist-nav .lang li:hover {
     background-color: white;
     cursor: pointer; }

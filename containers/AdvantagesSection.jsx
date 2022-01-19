@@ -1,6 +1,6 @@
 import React from "react";
 
-const AdvantagesSection = () => {
+const AdvantagesSection = ({lang}) => {
   return (
     <section className="container-fluid advantages-section pt-5 position-relative">
       <img
@@ -9,11 +9,9 @@ const AdvantagesSection = () => {
         alt="middle-icon-mist"
       />
       <div className="mx-project as-text d-flex flex-column">
-        <h2 className="text-center fw-bolder mt-5">Lorem ipsum</h2>
+        <h2 className="text-center fw-bolder mt-5">{lang.title}</h2>
         <p className="text-center">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat.
+          {lang.text}
         </p>
       </div>
       <div className="mx-project">
@@ -25,11 +23,9 @@ const AdvantagesSection = () => {
                 <img src="/icons/earn-icon.webp" alt="icon-card-box" />
               </div>
               <div className="card-box-text d-flex flex-column justify-content-end align-items-center align-self-center">
-                <h3 className="text-center">EARN</h3>
+                <h3 className="text-center">{lang.card_1.title}</h3>
                 <p className="text-center">
-                  Earn more by providing liquidity and staking, more than any
-                  other exchange. 0.25% for providing liquidity 0.05% for
-                  holders of xMIST
+                  {lang.card_1.text}
                 </p>
               </div>
             </div>
@@ -41,9 +37,9 @@ const AdvantagesSection = () => {
                 <img src="/icons/stake-icon.webp" alt="icon-card-box" />
               </div>
               <div className="card-box-text d-flex flex-column justify-content-end align-items-center align-self-center">
-                <h3 className="text-center">STAKE</h3>
+                <h3 className="text-center">{lang.card_2.title}</h3>
                 <p className="text-center">
-                  Stake MIST for xMIST and earn fees using the MistBar
+                {lang.card_2.text}
                 </p>
               </div>
             </div>
@@ -55,10 +51,9 @@ const AdvantagesSection = () => {
                 <img src="/icons/redeem-icon.webp" alt="icon-card-box" />
               </div>
               <div className="card-box-text d-flex flex-column justify-content-end align-items-center align-self-center">
-                <h3 className="text-center">REDEEM</h3>
+                <h3 className="text-center">{lang.card_3.title}</h3>
                 <p className="text-center">
-                  Redeem MIST (one-to-one) and DROP (one-to-five) SLP tokens
-                  with MIST tokens using Misty Lake.
+                {lang.card_3.text}
                 </p>
               </div>
             </div>
