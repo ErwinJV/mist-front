@@ -45,6 +45,10 @@ body {
       width: 155px;
       height: 38px;
       margin: 8px 0 8px 119px; }
+  @media (min-width: 768px) and (max-width: 965px) {
+    .main-section .coin-board {
+      width: 724px;
+      left: calc(50% - 362px); } }
   .main-section .main-text h1 {
     font-size: 44.5px; }
   .main-section .main-text p {
@@ -122,7 +126,6 @@ body {
 
 .token-section {
   background: linear-gradient(to right, #001118, #001F20, #001118);
-  box-shadow: 0px 0px 50px white;
   height: 218px; }
   .token-section h4 {
     font-family: "Inter", sans-serif;

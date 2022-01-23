@@ -46,6 +46,15 @@
     }
   }
 
+  @media(min-width:768px) and (max-width:965px){
+
+    .coin-board{
+
+      width:724px;
+      left: calc(50% - 362px);
+    }
+  }
+
   .main-text{
    
     

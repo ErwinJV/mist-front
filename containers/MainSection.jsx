@@ -1,16 +1,25 @@
-import React from "react";
+import React,{useState} from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
+
 const MainSection = ({lang}) => {
- const router = useRouter()
- console.log(lang)
-  const changeLang = (e) => {
+const router = useRouter()
+ 
+const [icon,setIcon] = useState(`/icons/${router.locale}-icon.webp`);
+ 
+const changeLang = (e) => {
    
     router.push(router.pathname, router.pathname, {
        locale: e.target.value,
     })
+
+   setIcon(`/icons/${e.target.value}-icon.webp`)
+  
+    
   };
+
+  
   return (
     <section className="main-section d-flex flex-column container-fluid p-0 position-relative">
       <div className="container max-width">
@@ -71,7 +80,7 @@ const MainSection = ({lang}) => {
             </ul>
               </div> 
       */}
-              <img src="/icons/En-icon.webp" className="me-2" width={30} height={30} alt="lang-icon" />
+              <img src={icon} className="me-2" width={30} height={30} alt="lang-icon" />
               <select
                 className="form-select text-white  rounded-2 bg-transparent"
                 aria-label="Default select example"
@@ -79,8 +88,8 @@ const MainSection = ({lang}) => {
               >
                
                
-                <option value={"en"}>{lang.lang[0]}</option>
-                <option value={"es"}>{lang.lang[1]}</option>
+                <option value={"en"} selected={ (router.locale == 'en') ? true : false } >{lang.lang[0]}</option>
+                <option value={"es"} selected={ (router.locale == 'es') ? true : false } >{lang.lang[1]}</option>
                 
               </select>
             </div>
