@@ -14,10 +14,10 @@ const AdvantagesSection = ({ lang }) => {
           <p className="text-center">{lang.text}</p>
         </div>
         <div className="mx-project">
-          <div className="row">
+          <div className=" w-100 d-flex flex-column  flex-xl-row justify-content-between ">
             {/*CARD ITEM*/}
-            <div className="col-12 col-lg-3 card-box d-flex justify-content-center align-items-center rounded-2 position-relative">
-              <div className="card-box-body d-flex flex-column rounded-2">
+            <div className=" card-box me-2   d-flex align-self-center  justify-content-center align-items-center rounded-2 position-relative">
+              <div className="card-box-body  d-flex flex-column rounded-2">
                 <div className="icon-container d-flex justify-content-center align-items-center rounded-circle position-absolute">
                   <img src="/icons/earn-icon.webp" alt="icon-card-box" />
                 </div>
@@ -28,7 +28,7 @@ const AdvantagesSection = ({ lang }) => {
               </div>
             </div>
             {/*CARD ITEM*/}
-            <div className="col-12 col-lg-3 card-box d-flex justify-content-center align-items-center rounded-2 position-relative">
+            <div className=" card-box me-2  align-self-center d-flex  justify-content-center align-items-center rounded-2 position-relative">
               <div className="card-box-body d-flex flex-column rounded-2">
                 <div className="icon-container d-flex justify-content-center align-items-center rounded-circle position-absolute">
                   <img src="/icons/stake-icon.webp" alt="icon-card-box" />
@@ -40,8 +40,8 @@ const AdvantagesSection = ({ lang }) => {
               </div>
             </div>
             {/*CARD ITEM*/}
-            <div className="col-12 col-lg-3 card-box d-flex justify-content-center align-items-center rounded-2 position-relative">
-              <div className="card-box-body d-flex flex-column rounded-2">
+            <div className=" card-box d-flex align-self-center   justify-content-center align-items-center rounded-2 position-relative">
+              <div className="card-box-body p-5 d-flex flex-column rounded-2">
                 <div className="icon-container d-flex justify-content-center align-items-center rounded-circle position-absolute">
                   <img src="/icons/redeem-icon.webp" alt="icon-card-box" />
                 </div>
