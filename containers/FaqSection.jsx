@@ -14,7 +14,7 @@ const FaqSection = ({ lang }) => {
             <h4 className="fw-bolder">{lang.title}</h4>
             <p className="fw-normal mx-auto mx-md-0 ">{lang.text}</p>
           </div>
-          <div className="faq-boxes mx-auto d-flex flex-column flex-md-row">
+          <div className="faq-boxes mx-auto d-flex flex-column flex-lg-row">
             <ul className="list-group mx-auto  faq-group">
               <li className="list-group-item">
                 <span>{lang.questions.A}</span>

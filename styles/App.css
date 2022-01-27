@@ -475,7 +475,7 @@ body {
 
 @media (min-width: 768px) {
   .faq-section {
-    min-height: 900px;
+    min-height: 1100px;
     background-color: #001811; }
     .faq-section .crecent-mist-icon {
       right: 0;
@@ -496,6 +496,7 @@ body {
       grid-gap: 20px;
       height: 463px !important; }
     .faq-section .faq-group {
+      width: 479px;
       height: 483px; }
       .faq-section .faq-group li {
         background-color: #001211;
@@ -506,7 +507,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        overflow-y: auto;
         padding-left: 1rem; }
         .faq-section .faq-group li span {
           width: 100%; }
@@ -525,6 +525,10 @@ body {
         line-height: 30px;
         margin: 0;
         width: 320px; } }
+
+@media (min-width: 1024px) {
+  .faq-section {
+    min-height: 800px; } }
 
 footer {
   min-height: 130px;

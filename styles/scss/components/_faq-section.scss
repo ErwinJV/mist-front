@@ -70,7 +70,7 @@
 
 @media (min-width:768px) {
   .faq-section {
-    min-height: 900px;
+    min-height: 1100px;
     background-color: $mist-bg-alt;
   
     .crecent-mist-icon {
@@ -98,6 +98,7 @@
       height: 463px !important;
     }
     .faq-group {
+      width: 479px;
       height: 483px;
       li {
         background-color: #001211;
@@ -108,7 +109,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        overflow-y: auto;
+        
         padding-left: 1rem;
 
         span{
@@ -139,5 +140,12 @@
         width: 320px;
       }
     }
+  }
+}
+
+@media(min-width:1024px){
+
+  .faq-section {
+    min-height: 800px;
   }
 }

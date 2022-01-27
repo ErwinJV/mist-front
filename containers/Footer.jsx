@@ -36,7 +36,7 @@ const Footer = ({ lang }) => {
               </div>
             </div>
             <div className="col-12 order-2 order-lg-3 col-lg-4 mt-5">
-              <div className="options-links d-flex flex-column justify-content-center align-items-center  flex-xl-row   justify-content-between">
+              <div className="options-links d-flex flex-column justify-content-center align-items-center  flex-xxl-row   justify-content-between">
                 <a href="#">{lang.right_nav[0]}</a>
                 <a href="#">{lang.right_nav[1]}</a>
                 <a href="#">{lang.right_nav[2]}</a>
