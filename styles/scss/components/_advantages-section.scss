@@ -17,6 +17,7 @@
       font-family: "Inter", sans-serif;
       color: $mist-white;
       font-size: 11px;
+      width: 246px;
     }
 
    
@@ -35,6 +36,7 @@
       font-family: "Inter", sans-serif;
       color: $mist-white;
       font-size: 26px;
+      width: auto;
     }
   }
     
@@ -42,8 +44,17 @@
 
   .middle-icon-mist-small-l {
     left: 0;
-    top: 25%;
+    top: 8%;
     opacity: 0.1;
+    width: 32px;
+    height:69px;
+
+          @media (min-width:992px){
+            width: unset;
+            height:unset;
+            top: 25%;
+
+          }
   }
 
   .card-box {

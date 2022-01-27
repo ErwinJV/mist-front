@@ -15,52 +15,61 @@ const FaqSection = ({ lang }) => {
             <p className="fw-normal mx-auto mx-md-0 ">{lang.text}</p>
           </div>
           <div className="faq-boxes mx-auto d-flex flex-column flex-lg-row">
-            <ul className="list-group mx-auto  faq-group">
+            <ul className="list-group mx-auto  faq-group"  id="questions">
               <li className="list-group-item">
-                <span>{lang.questions.A}</span>
+              <a href="#A" className="text-decoration-none text-white">{lang.questions.A}</a>
+                <i className="bi bi-chevron-right" />
+              </li>
+              <li className="list-group-item dropdown-item"  >
+                <a href="#B" className="text-decoration-none text-white">{lang.questions.B}</a>
                 <i className="bi bi-chevron-right" />
               </li>
               <li className="list-group-item">
-                <span>{lang.questions.B}</span>
+              <a href="#C" className="text-decoration-none text-white">{lang.questions.C}</a>
                 <i className="bi bi-chevron-right" />
               </li>
               <li className="list-group-item">
-                <span>{lang.questions.C}</span>
+              <a href="#D" className="text-decoration-none text-white">{lang.questions.D}</a>
                 <i className="bi bi-chevron-right" />
               </li>
               <li className="list-group-item">
-                <span>{lang.questions.D}?</span>
+              <a href="#E" className="text-decoration-none text-white">{lang.questions.E}</a>
                 <i className="bi bi-chevron-right" />
               </li>
               <li className="list-group-item">
-                {lang.questions.E}
-                <span />
-                <i className="bi bi-chevron-right" />
-              </li>
-              <li className="list-group-item">
-                <span>{lang.questions.F}</span>
+              <a href="#F" className="text-decoration-none text-white">{lang.questions.F}</a>
                 <i className="bi bi-chevron-right" />
               </li>
             </ul>
-            <div className="answer-box mx-auto mx-md-0 ">
-              <div className="answer-text  p-4 text-white">
-                {/*  <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
-              </p>
-              <p>
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                consequat.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                esse molestie consequat, vel illum dolore eu feugiat nulla
-                facilisis at vero eros et accumsan et iusto erat.
-            </p> */}
+            <div className="answer-box mx-auto scrollspy-example" data-bs-spy="scroll" data-bs-target="#questions" data-bs-offset="0"  tabIndex="0">
+              <p className="answer-text ps-4  text-white mt-4"  id="A">
+                
                 {lang.answers.A}
-              </div>
+              </p>
+
+              <p className="answer-text ps-4   text-white mt-4"  id="B">
+                
+                {lang.answers.A}
+              </p>
+              <p className="answer-text ps-4  text-white mt-4"  id="C">
+                
+                {lang.answers.A}
+              </p>
+
+              <p className="answer-text ps-4  text-white mt-4"  id="D">
+                
+                {lang.answers.A}
+              </p>
+
+              <p className="answer-text ps-4  text-white mt-4"  id="E">
+                
+                {lang.answers.A}
+              </p>
+
+              <p className="answer-text  ps-4 text-white mt-4"  id="F">
+                
+                {lang.answers.A}
+              </p>
             </div>
           </div>
         </div>

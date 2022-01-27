@@ -38,9 +38,21 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      &:hover{
+
+        background-color: $cool-dark-green;
+        i {
+          color: white;
+         
+        }
+     }
 
       i {
         color: $cool-green;
+       
+      }
+      i:hover{
+        color: white !important;
       }
     }
 
@@ -66,6 +78,20 @@
      
     }
   }
+
+  .crecent-mist-icon {
+    right: 0;
+    
+    opacity: 0.1;
+    width:29px;
+    height: 56px;
+
+        @media (min-width:768px){
+          width:unset;
+          height: unset;
+          top: 80px;
+        }
+  }
 }
 
 @media (min-width:768px) {
@@ -73,11 +99,7 @@
     min-height: 1100px;
     background-color: $mist-bg-alt;
   
-    .crecent-mist-icon {
-      right: 0;
-      top: 80px;
-      opacity: 0.1;
-    }
+    
     .faq-text {
       padding-top: 7rem;
       font-family: "Inter", sans-serif;
@@ -109,6 +131,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+      
         
         padding-left: 1rem;
 
@@ -116,9 +140,7 @@
           width: 100%;
         }
   
-        i {
-          color: $cool-green;
-        }
+       
       }
   
       li:last-child {
@@ -138,6 +160,7 @@
         line-height: 30px;
         margin:0;
         width: 320px;
+        height: 400px;
       }
     }
   }

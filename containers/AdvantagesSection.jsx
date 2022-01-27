@@ -11,7 +11,7 @@ const AdvantagesSection = ({ lang }) => {
         />
         <div className="mx-project as-text d-flex flex-column">
           <h2 className="text-center fw-bolder mt-5">{lang.title}</h2>
-          <p className="text-center">{lang.text}</p>
+          <p className="text-center mx-auto">{lang.text}</p>
         </div>
         <div className="mx-cards">
           <div className=" w-100 d-flex flex-column  flex-xl-row justify-content-between ">

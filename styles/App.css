@@ -147,25 +147,45 @@ body {
     padding-top: 2rem; }
     .mist-carousel .title-section h2 {
       font-size: 15px;
-      font-family: 'Inter', sans-serif; }
+      font-family: "Inter", sans-serif; }
   .mist-carousel .title-carousel {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px; }
   .mist-carousel .text-carousel {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 11px; }
   .mist-carousel .left-icon-mist {
     left: 0;
-    top: -70px;
-    opacity: .1; }
+    top: -0px;
+    opacity: 0.1;
+    width: 32px;
+    height: 69px; }
+    @media (min-width: 992px) {
+      .mist-carousel .left-icon-mist {
+        width: unset;
+        height: unset;
+        top: -40px; } }
   .mist-carousel .middle-icon-mist-small-r {
     right: 0;
-    bottom: -2px;
-    opacity: .1; }
+    bottom: 100px;
+    opacity: 0.1;
+    width: 29px;
+    height: 56px; }
+    @media (min-width: 992px) {
+      .mist-carousel .middle-icon-mist-small-r {
+        width: unset;
+        height: unset; } }
   .mist-carousel .left-icon-mist-down {
     left: 0;
-    bottom: 80px;
-    opacity: .1; }
+    top: 20px;
+    opacity: 0.1;
+    width: 28;
+    height: 69px; }
+    @media (min-width: 992px) {
+      .mist-carousel .left-icon-mist-down {
+        bottom: 80px;
+        width: unset;
+        height: unset; } }
 
 @media (min-width: 768px) {
   .mist-carousel {
@@ -176,25 +196,25 @@ body {
       padding-top: 5rem; }
       .mist-carousel .title-section h2 {
         font-size: 48px;
-        font-family: 'Inter', sans-serif; }
+        font-family: "Inter", sans-serif; }
     .mist-carousel .title-carousel {
-      font-family: 'Inter', sans-serif;
+      font-family: "Inter", sans-serif;
       font-size: 30px; }
     .mist-carousel .text-carousel {
-      font-family: 'Inter', sans-serif;
+      font-family: "Inter", sans-serif;
       font-size: 26px; }
     .mist-carousel .left-icon-mist {
       left: 0;
       top: -70px;
-      opacity: .1; }
+      opacity: 0.1; }
     .mist-carousel .middle-icon-mist-small-r {
       right: 0;
       bottom: -2px;
-      opacity: .1; }
+      opacity: 0.1; }
     .mist-carousel .left-icon-mist-down {
       left: 0;
       bottom: 80px;
-      opacity: .1; } }
+      opacity: 0.1; } }
 
 .carousel-control-next, .carousel-control-prev {
   top: unset !important;
@@ -262,7 +282,8 @@ body {
     .advantages-section .as-text p {
       font-family: "Inter", sans-serif;
       color: #e5e5ea;
-      font-size: 11px; }
+      font-size: 11px;
+      width: 246px; }
   @media (min-width: 768px) {
     .advantages-section .as-text {
       min-height: 340px; }
@@ -273,11 +294,19 @@ body {
       .advantages-section .as-text p {
         font-family: "Inter", sans-serif;
         color: #e5e5ea;
-        font-size: 26px; } }
+        font-size: 26px;
+        width: auto; } }
   .advantages-section .middle-icon-mist-small-l {
     left: 0;
-    top: 25%;
-    opacity: 0.1; }
+    top: 8%;
+    opacity: 0.1;
+    width: 32px;
+    height: 69px; }
+    @media (min-width: 992px) {
+      .advantages-section .middle-icon-mist-small-l {
+        width: unset;
+        height: unset;
+        top: 25%; } }
   .advantages-section .card-box {
     width: 197px;
     min-height: 209px;
@@ -456,8 +485,14 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between; }
+      .faq-section .faq-group li:hover {
+        background-color: #10d59f; }
+        .faq-section .faq-group li:hover i {
+          color: white; }
       .faq-section .faq-group li i {
         color: #62d2a2; }
+      .faq-section .faq-group li i:hover {
+        color: white !important; }
     .faq-section .faq-group li:last-child {
       border-bottom: none; }
   .faq-section .answer-box {
@@ -472,15 +507,21 @@ body {
       height: 190px;
       font-size: 11px;
       line-height: 14.5px; }
+  .faq-section .crecent-mist-icon {
+    right: 0;
+    opacity: 0.1;
+    width: 29px;
+    height: 56px; }
+    @media (min-width: 768px) {
+      .faq-section .crecent-mist-icon {
+        width: unset;
+        height: unset;
+        top: 80px; } }
 
 @media (min-width: 768px) {
   .faq-section {
     min-height: 1100px;
     background-color: #001811; }
-    .faq-section .crecent-mist-icon {
-      right: 0;
-      top: 80px;
-      opacity: 0.1; }
     .faq-section .faq-text {
       padding-top: 7rem;
       font-family: "Inter", sans-serif; }
@@ -510,8 +551,6 @@ body {
         padding-left: 1rem; }
         .faq-section .faq-group li span {
           width: 100%; }
-        .faq-section .faq-group li i {
-          color: #62d2a2; }
       .faq-section .faq-group li:last-child {
         border-bottom: none; }
     .faq-section .answer-box {
@@ -524,7 +563,8 @@ body {
         font-size: 17px;
         line-height: 30px;
         margin: 0;
-        width: 320px; } }
+        width: 320px;
+        height: 400px; } }
 
 @media (min-width: 1024px) {
   .faq-section {

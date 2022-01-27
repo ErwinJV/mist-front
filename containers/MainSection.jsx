@@ -70,9 +70,9 @@ const changeLang = (e) => {
                 onChange={changeLang}
               >
                
-               <option value selected></option>
-                <option value={"en"}  >{lang.lang[0]}</option>
-                <option value={"es"}  >{lang.lang[1]}</option>
+              
+                <option value={"en"} selected={(router.locale === "en") ? true : false} >{lang.lang[0]}</option>
+                <option value={"es"}  selected={(router.locale === "es") ? true : false} >{lang.lang[1]}</option>
                 
               </select>
             </div>
