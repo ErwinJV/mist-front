@@ -2,7 +2,7 @@
   "index": {
     "main_section": {
       "nav_center": ["Analiticas", "Lago Brumoso", "Documentos"],
-      "lang": ["Ingles", "Español", "Frances"],
+      "lang": ["En", "Es", "Fr"],
       "main_title": "Defi en efectivo de Bitcoin",
       "main_text": "Comercia, lanza, apuesta, cultiva, invierte, automatiza, crea en la principal plataforma DeFi de smartBCH",
       "coin_board":["Precio","Valor total bloqueado","Volumen","Pares"],

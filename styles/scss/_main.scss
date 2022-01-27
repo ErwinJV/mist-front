@@ -8,9 +8,17 @@ body {
   background-color: #00181e;
 }
 
-.mx-project {
-  margin-left: 131px;
-  margin-right: 131px;
+
+
+@media (min-width:768px){
+  .mx-project {
+  
+ 
+  
+    margin-left: 131px;
+    margin-right: 131px;
+  }
+    
 }
 
 .max-width{

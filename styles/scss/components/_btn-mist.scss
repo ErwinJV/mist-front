@@ -7,10 +7,21 @@
     transparent;
     border: 1px solid $cool-dark-green;
     color: $cool-dark-green;
+    margin-left:calc(50% -  57.39px);
+   
 
     &:hover{
 
         background-color: $cool-dark-green;
         color: $mist-bg;
+    }
+
+
+}
+
+@media (min-width:768px){
+
+    .btn-mist{
+        margin-left: unset;
     }
 }

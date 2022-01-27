@@ -2,7 +2,7 @@
   "index": {
     "main_section": {
       "nav_center": ["Analytics", "Misty Lake", "Documents"],
-      "lang": ["English", "Spanish", "French"],
+      "lang": ["En", "Es", "Fr"],
       "main_title": "Defi On Bitcoin Cash",
       "main_text": "Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of smartBCH",
       "coin_board":["Price","Total value locked","Volume","Pairs"],
