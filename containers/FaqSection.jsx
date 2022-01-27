@@ -12,10 +12,10 @@ const FaqSection = ({ lang }) => {
         <div className="mx-project">
           <div className="faq-text text-white text-center">
             <h4 className="fw-bolder">{lang.title}</h4>
-            <p className="fw-normal">{lang.text}</p>
+            <p className="fw-normal mx-auto mx-md-0 ">{lang.text}</p>
           </div>
-          <div className="faq-boxes">
-            <ul className="list-group faq-group">
+          <div className="faq-boxes mx-auto d-flex flex-column flex-md-row">
+            <ul className="list-group mx-auto  faq-group">
               <li className="list-group-item">
                 <span>{lang.questions.A}</span>
                 <i className="bi bi-chevron-right" />
@@ -42,8 +42,8 @@ const FaqSection = ({ lang }) => {
                 <i className="bi bi-chevron-right" />
               </li>
             </ul>
-            <div className="answer-box">
-              <div className="answer-text p-4 text-white">
+            <div className="answer-box mx-auto mx-md-0 ">
+              <div className="answer-text  p-4 text-white">
                 {/*  <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna

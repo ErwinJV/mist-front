@@ -5,7 +5,7 @@ const OurPartnersSection = ({ lang }) => {
     <section className="our-partners-section  container-fluid d-flex flex-column justify-content-center">
       <div className="max-width">
         <div className="container">
-          <h4 className="text-center mb-5 fw-normal">{lang.title}</h4>
+          <h4 className="text-center mb-3 mb-md-5 fw-normal">{lang.title}</h4>
           <div className="d-flex w-100 mt-2 justify-content-center">
             <div className="partners d-flex justify-content-between">
               <img

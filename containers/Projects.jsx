@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = ({ lang }) => {
   return (
-    <section className="mist-carousel projects text-white container-fluid">
+    <section className="mist-carousel projects d-flex justify-content-center text-white container-fluid">
       <div className="max-width position-relative">
         <img
           src="/icons/middle-mist-logo.webp"
@@ -14,7 +14,7 @@ const Projects = ({ lang }) => {
           className="middle-icon-mist-small-r position-absolute"
           alt="middle-icon-mist-r"
         />
-        <div className="mx-project h-100">
+        <div className="mx-project mx-carousel h-100">
           <div className="w-100 title-section d-flex justify-content-between">
             <h2 className="fw-bolder d-none d-md-block">{lang.title}</h2>
             {/*CAROUSEL CONTROLS*/}
@@ -49,7 +49,7 @@ const Projects = ({ lang }) => {
             <div className="carousel-inner">
               {/*ITEM CAROUSEL*/}
               <div className="carousel-item active mb-5">
-                <div className="row row-cols-1 row-cols-md-2">
+                <div className="row row-cols-1 row-cols-lg-2">
                   <div className=" d-none d-md-flex col" />
                   <div className="col">
                     <h3 className="fw-bolder title-carousel text-center text-md-start">
@@ -67,10 +67,10 @@ const Projects = ({ lang }) => {
                   </div>
                 </div>
               </div>
-             
-               {/*ITEM CAROUSEL*/}
-               <div className="carousel-item  mb-5">
-                <div className="row row-cols-1 row-cols-md-2">
+
+              {/*ITEM CAROUSEL*/}
+              <div className="carousel-item  mb-5">
+                <div className="row row-cols-1 row-cols-lg-2">
                   <div className=" d-none d-md-flex col" />
                   <div className="col">
                     <h3 className="fw-bolder title-carousel text-center text-md-start">
@@ -88,9 +88,9 @@ const Projects = ({ lang }) => {
                   </div>
                 </div>
               </div>
-               {/*ITEM CAROUSEL*/}
-               <div className="carousel-item  mb-5">
-                <div className="row row-cols-1 row-cols-md-2">
+              {/*ITEM CAROUSEL*/}
+              <div className="carousel-item  mb-5">
+                <div className="row row-cols-1 row-cols-lg-2">
                   <div className=" d-none d-md-flex col" />
                   <div className="col">
                     <h3 className="fw-bolder title-carousel text-center text-md-start">
@@ -108,8 +108,6 @@ const Projects = ({ lang }) => {
                   </div>
                 </div>
               </div>
-             
-            
             </div>
           </div>
         </div>

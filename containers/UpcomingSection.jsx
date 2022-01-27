@@ -10,11 +10,11 @@ const UpcomingSection = ({ lang }) => {
           className="left-icon-mist-down position-absolute"
           alt="middle-icon-mist"
         />
-        <div className="mx-project h-100">
+        <div className="mx-project mx-carousel h-100">
           <div className="w-100 title-section d-flex justify-content-between">
-            <h2 className="fw-bolder">{lang.title}</h2>
+            <h2 className="fw-bolder  d-none d-md-block">{lang.title}</h2>
             {/*CAROUSEL CONTROLS*/}
-            <div className="d-flex justify-content-between me-3">
+            <div className="d-flex  mx-auto justify-content-between me-md-3">
               <button
                 className="carousel-control-prev me-4"
                 type="button"
@@ -24,8 +24,10 @@ const UpcomingSection = ({ lang }) => {
                 <i className="bi bi-chevron-left fs-4" />
                 <span className="visually-hidden">Previous</span>
               </button>
+
+              <h2 className="fw-bolder  d-md-none ">{lang.title}</h2>
               <button
-                className="carousel-control-next"
+                className="carousel-control-next  ms-4"
                 type="button"
                 data-bs-target="#upcomingSection"
                 data-bs-slide="next"
@@ -44,13 +46,15 @@ const UpcomingSection = ({ lang }) => {
             <div className="carousel-inner">
               {/*ITEM CAROUSEL*/}
               <div className="carousel-item active mb-5">
-                <div className="row row-cols-2">
-                  <div className="col" />
+                <div className="row row-cols-1 row-cols-md-2">
+                  <div className="d-none d-md-flex col" />
                   <div className="col">
-                    <h3 className="fw-bolder title-carousel">
+                    <h3 className="fw-bolder title-carousel text-center text-md-start">
                       {lang.title_carousel}
                     </h3>
-                    <p className="text-carousel">{lang.text_carousel}</p>
+                    <p className="text-carousel text-center text-md-start">
+                      {lang.text_carousel}
+                    </p>
                     <a
                       href="#"
                       className="btn-mist mt-4 text-decoration-none py-1 px-3 rounded-pill"
@@ -63,13 +67,15 @@ const UpcomingSection = ({ lang }) => {
 
               {/*ITEM CAROUSEL*/}
               <div className="carousel-item  mb-5">
-                <div className="row row-cols-2">
-                  <div className="col" />
+                <div className="row row-cols-1 row-cols-md-2">
+                  <div className="d-none d-md-flex col" />
                   <div className="col">
-                    <h3 className="fw-bolder title-carousel">
+                    <h3 className="fw-bolder title-carousel text-center text-md-start">
                       {lang.title_carousel}
                     </h3>
-                    <p className="text-carousel">{lang.text_carousel}</p>
+                    <p className="text-carousel text-center text-md-start">
+                      {lang.text_carousel}
+                    </p>
                     <a
                       href="#"
                       className="btn-mist mt-4 text-decoration-none py-1 px-3 rounded-pill"
@@ -79,16 +85,17 @@ const UpcomingSection = ({ lang }) => {
                   </div>
                 </div>
               </div>
-
               {/*ITEM CAROUSEL*/}
               <div className="carousel-item  mb-5">
-                <div className="row row-cols-2">
-                  <div className="col" />
+                <div className="row row-cols-1 row-cols-md-2">
+                  <div className="d-none d-md-flex col" />
                   <div className="col">
-                    <h3 className="fw-bolder title-carousel">
+                    <h3 className="fw-bolder title-carousel text-center text-md-start">
                       {lang.title_carousel}
                     </h3>
-                    <p className="text-carousel">{lang.text_carousel}</p>
+                    <p className="text-carousel text-center text-md-start">
+                      {lang.text_carousel}
+                    </p>
                     <a
                       href="#"
                       className="btn-mist mt-4 text-decoration-none py-1 px-3 rounded-pill"

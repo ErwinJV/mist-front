@@ -13,7 +13,7 @@ const AdvantagesSection = ({ lang }) => {
           <h2 className="text-center fw-bolder mt-5">{lang.title}</h2>
           <p className="text-center">{lang.text}</p>
         </div>
-        <div className="mx-project">
+        <div className="mx-cards">
           <div className=" w-100 d-flex flex-column  flex-xl-row justify-content-between ">
             {/*CARD ITEM*/}
             <div className=" card-box me-2   d-flex align-self-center  justify-content-center align-items-center rounded-2 position-relative">
@@ -46,7 +46,7 @@ const AdvantagesSection = ({ lang }) => {
                   <img src="/icons/redeem-icon.webp" alt="icon-card-box" />
                 </div>
                 <div className="card-box-text d-flex flex-column justify-content-end align-items-center align-self-center">
-                  <h3 className="text-center">{lang.card_3.title}</h3>
+                  <h3 className="text-center mt-1">{lang.card_3.title}</h3>
                   <p className="text-center">{lang.card_3.text}</p>
                 </div>
               </div>

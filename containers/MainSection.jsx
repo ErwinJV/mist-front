@@ -141,7 +141,7 @@ const changeLang = (e) => {
         <h1 className="mist-title flex text-center fw-bolder">
         {lang.main_title}
         </h1>
-        <p className="mist-slogan mx-auto text-center text-md-end">
+        <p className="mist-slogan w-100 text-center text-md-end">
          {lang.main_text}
         </p>
       </div> 
